@@ -9,7 +9,7 @@ class Particle:
     
     def __init__(self, Position, M):
         """Create a particle with position (numpy array of len 2) and mass."""
-        self.pos = Position   # Sets x position
+        self.pos = Position   # Sets x position "pos" is the instance variable
         self.m = M  # Sets mass
         # Initial velocity and acceleration set to be zero
         self.vel = np.zeros((2,))
